@@ -1,56 +1,293 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!--
+<!DOCTYPE html>
+<html lang="pt-BR">
 
--->
-<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title></title>
-<meta name="keywords" content="" />
-<meta name="description" content="" />
-<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
-<link href="default.css" rel="stylesheet" type="text/css" media="all" />
-<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
-
-<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
-
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Leandro Teodoro — Engenharia & Machine Learning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-<div id="page" class="container">
-	<div id="header">
-		<div id="logo">
-			<img src="images/pic02.jpg" alt="" />
-		  <h1><a href="#">Leandro T. Souza</a></h1>
-			<span>B.ENG. CONTROLE E AUTOMAÇÃO<br>PÓS-GRAD. MACHINE LEARNING<br>BEL. QUÍMICA</span>
-		</div>
-		<div id="menu">
-			<ul>
-				<li class="current_page_item"><a href="#" accesskey="1" title="">Homepage</a></li>
-				<li><a href="Lista.htm" accesskey="2" title="">PUBLICAÇÕES</a></li>
-				<li><a href="contato.htm" accesskey="3" title="">Contato</a></li>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-		</div>
-	</div>
-	<div id="main">
-		<div id="banner">
-			<img src="images/pic01.jpg" alt="" class="image-full" />
-		</div>
-		<div id="welcome">
-			<div class="title">
-				<h1>Olá, sejam bem vindos</h1>
-				<span class="byline">&quot;Se eu vi mais longe, foi por estar sobre ombros de gigantes&quot;- Isaac Newton</span>
-			</div>
-			<p>Esta página foi desenvolvida com o intuido de divulgar o trabalho realizado por mim. Os artigos postados servem como base inicial para os estudos e como aprendizado continuado. O material entregue foi compilado com a maior riqueza de detalhes possível. Espero que gostem :)</p>
-			<ul class="actions">
-			  <li><a href="#" class="button">Etiam posuere</a></li>
-			</ul>
-		</div>
-		
-		<div id="copyright"></div>
-	</div>
-</div>
+  <!-- BARRA DE NAVEGAÇÃO PRINCIPAL -->
+  <nav class="nav">
+    <div class="nav-container">
+      <div class="nav-logo-brand">
+        <img src="Imagens utilizadas/logo.png" alt="Logo Leandro Teodoro" class="logo">
+        <a href="#hero" class="brand">Leandro Teodoro Engenharia</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#publicacoes">Publicações</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- SEÇÃO HERO - APRESENTAÇÃO PRINCIPAL -->
+  <header id="hero" class="hero">
+    <div class="hero-inner">
+      <div class="hero-left">
+        <h1>Leandro Teodoro</h1>
+        <div class="badges">
+          <span class="badge">B.Eng. Controle & Automação</span>
+          <span class="badge">Pós-Grad. Machine Learning</span>
+          <span class="badge">Pós-Grad. Engenharia de Software</span>
+          <span class="badge">Bel. Química</span>
+        </div>
+        <!-- Seção de botões do Hero (certifique-se que está assim) -->
+        <div class="hero-ctas">
+          <button id="btnEmail" class="btn-primary btn-email">
+            <span class="btn-text">Email</span>
+            <span class="copied-text">Email Copiado!</span>
+          </button>
+          <a class="btn-primary" href="https://linkedin.com/in/leandroteodoro-engenharia" target="_blank"
+            rel="noopener">Linkedin</a>
+          <a class="btn-primary" href="https://github.com/LeandroTeodoroRJ" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn-primary" href="https://youtube.com/@LeandroTeodoroEngenharia" target="_blank"
+            rel="noopener">YouTube</a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="portrait" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <!-- SEÇÃO SOBRE - INFORMAÇÕES PROFISSIONAIS -->
+  <section id="sobre" class="container">
+    <h2>Sobre</h2>
+    <div class="about-grid">
+      <div class="about-text">
+        <p>
+          Engenheiro e pós-graduado em Inteligência Artificial, com forte interesse em inovação e desenvolvimento
+          tecnológico. Desde cedo, envolvo-me com programação e hardware, o que moldou minha trajetória profissional.
+        </p>
+        <ul>
+          <li>Programação e controle de CLPs industriais</li>
+          <li>Machine Learning aplicado</li>
+          <li>Análise e visualização de dados</li>
+          <li>Data mining e métodos preditivos</li>
+          <li>Eletrônica de potência</li>
+          <li>Projeto de circuitos analógicos e digitais</li>
+          <li>Automação industrial e controle avançado</li>
+          <li>Modelagem e deploy de modelos de Machine Learning</li>
+          <li>Coleta e tratamento de sinais / sensores</li>
+        </ul>
+        <p>
+          Tenho experiência sólida nessas áreas, sou capaz de liderar equipes e atuar de forma colaborativa para
+          impulsionar resultados. Tenho interesse especial em aplicações puras de machine learning e no uso de modelos
+          inteligentes para controle dinâmico. Quero contribuir com as habilidades que desenvolvi ao longo da minha
+          formação e experiência prática.
+        </p>
+      </div>
+      <div class="about-accordion">
+        <div class="accordion">
+          <!-- Accordion 1: Formação -->
+          <div class="accordion-item">
+            <button class="accordion-header">Formação, Certificados e Cursos</button>
+            <div class="accordion-content">
+              <ul>
+                <li>B.Eng. Controle e Automação — PUC-MG</li>
+                <li>Pós-Graduação em Machine Learning — PUC-MG</li>
+                <li>Bacharel em Química — Faculdade Souza Marques</li>
+                <li>Learning Embedded Linux Hands On with the Raspberry Pi Zero 2W - Embarcados</li>
+                <li>Embedded Systems Bare-Metal Programming (STM32) - Udemy</li>
+                <li>C++ Essencial - Cod3r</li>
+                <li>Electrical, Electronics and PCB Design Safety & Compliance</li>
+              </ul>
+            </div>
+          </div>
+          <!-- Accordion 2: Stack Tecnológica -->
+          <div class="accordion-item">
+            <button class="accordion-header">Stack & Ferramentas</button>
+            <div class="accordion-content">
+              <p>Python (pandas, scikit-learn, PyTorch), MATLAB/Simulink, C/C++, MQTT, ROS, PLCs
+                (Siemens/Allen-Bradley), Docker, CI/CD.</p>
+            </div>
+          </div>
+          <!-- Accordion 3: Áreas de Atuação -->
+          <div class="accordion-item">
+            <button class="accordion-header">Atuação</button>
+            <div class="accordion-content">
+              <p>Projetos industriais, Machine Learning, análise de dados experimentais, automação de testes e integração de
+                sistemas.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SEÇÃO PROJETOS - CARROSSEL DO GITHUB -->
+  <section id="projetos" class="container">
+    <h2>Projetos GitHub</h2>
+    <div class="project-carousel">
+      <button class="carousel-arrow left" aria-label="Projetos anteriores">
+        <span style="font-weight:900;font-size:2.1rem;font-family:monospace;">&lt;</span>
+      </button>
+
+      <div class="project-carousel-track" id="github-projects">
+        <div class="loading">Carregando projetos do GitHub...</div>
+      </div>
+
+      <button class="carousel-arrow right" aria-label="Próximos projetos">
+        <span style="font-weight:900;font-size:2.1rem;font-family:monospace;">&gt;</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- SEÇÃO PUBLICAÇÕES - ACCORDION DE CONTEÚDO -->
+  <section id="publicacoes" class="container publication-section">
+    <h2>Publicações & Conteúdo</h2>
+
+    <div class="publications">
+      <!-- CATEGORIA: ELETRICIDADE -->
+      <div class="publication-accordion-item">
+        <button class="publication-accordion-header">
+          Eletricidade
+          <span class="category-count">13</span>
+        </button>
+        <div class="publication-accordion-content">
+          <a href="https://leandroteodororj.github.io/homepage/doc/Resistores.pdf"
+            class="publication-link">Resistores</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Leis_de_kirchhoff.pdf" class="publication-link">Leis
+            de Kirchhoff</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Thevenin_e_Norton.pdf"
+            class="publication-link">Teorema de Thevenin e Teorema de Norton</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Medindo_Indutores_com_Osciloscopio.pdf"
+            class="publication-link">Medindo Indutores com Osciloscópio</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Representacoes_Desvio_Fase.pdf"
+            class="publication-link">Representações de Desvio de Fase</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Ckt_RL_RC_Corrente_Continua.pdf"
+            class="publication-link">Circuitos RL e RC para Corrente Contínua</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Ckt_RL_RC_Alternada.pdf"
+            class="publication-link">Circuitos RL e RC para Corrente Alternada</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Revisao_Numeros_Complexos.pdf"
+            class="publication-link">Revisão: Números Complexos</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Ckt_Ressonantes_LC.pdf"
+            class="publication-link">Ressonância em Circuitos LC</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Transformadores_Trifasicos_tensoes_no_secundario.pdf"
+            class="publication-link">Transformadores Trifásicos — Tensões e Correntes</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Cargas_Trifasicas_Desbalanceadas.pdf"
+            class="publication-link">Cargas Trifásicas Desbalanceadas</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Tabela%20de%20fios%20esmaltados.pdf"
+            class="publication-link">Tabela de Fios Esmaltados</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Instrumentacao-Voltimetros.pdf"
+            class="publication-link">Instrumentação — Voltímetros Analógicos</a>
+        </div>
+      </div>
+
+      <!-- CATEGORIA: ELETRÔNICA ANALÓGICA -->
+      <div class="publication-accordion-item">
+        <button class="publication-accordion-header">
+          Eletrônica Analógica
+          <span class="category-count">25</span>
+        </button>
+        <div class="publication-accordion-content">
+          <a href="https://leandroteodororj.github.io/homepage/doc/Retificadores.pdf"
+            class="publication-link">Retificadores</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Retificador_em_Ponte.pdf"
+            class="publication-link">Retificador em Ponte</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Reguladores_78XX.pdf"
+            class="publication-link">Reguladores 78XX e 79XX</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Amp_Pol_Div_Tensao.pdf"
+            class="publication-link">Amplificador Emissor Comum</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Analise_EC_Amp_Div_Tensao.pdf"
+            class="publication-link">Análise Completa — Amplificador Emissor Comum</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Projeto_Amp_Pol_Div_Tensao.pdf"
+            class="publication-link">Projeto — Amplificador Emissor Comum</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Seguidor_Emissor_Sinal.pdf"
+            class="publication-link">Seguidor de Emissor</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Analise_Seguidor_Emissor.pdf"
+            class="publication-link">Análise Completa — Seguidor de Emissor</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Projeto_Amp_Seguidor_Emissor.pdf"
+            class="publication-link">Projeto — Seguidor de Emissor</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Amp_FET_Autopolarizacao.pdf"
+            class="publication-link">Amplificador FET — Autopolarização</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Analise_Amp_FET_Autopolarizacao.pdf"
+            class="publication-link">Análise Completa — FET Autopolarização</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/JFET_Divisor_Tensao0001.pdf"
+            class="publication-link">FET Divisor de Tensão</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Amp_FET_Seguidor_Fonte.pdf"
+            class="publication-link">Amplificador FET — Seguidor de Fonte</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Amp_Pot_ClasseAB.pdf"
+            class="publication-link">Amplificador Classe AB</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Analise_Amp_AB.pdf" class="publication-link">Análise
+            Completa — Classe AB</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Projeto_Amp_AB.pdf" class="publication-link">Projeto
+            — Amplificador Classe AB</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Amplificador_3W_Bancada.pdf"
+            class="publication-link">Amplificador 3W para Bancada</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Dissipadores_de_Calor.pdf"
+            class="publication-link">Dissipadores de Calor</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/AmpOP.pdf" class="publication-link">Teoria do
+            Amplificador Operacional</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Micro_Mixer_4_Canais.pdf"
+            class="publication-link">Micro Mixer — 4 Canais</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Estacao_de_Solda_Multipla.pdf"
+            class="publication-link">Estação de Solda Múltipla</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Montagem_em_Camadas.pdf"
+            class="publication-link">Montagem em Camadas</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Conversor_DC_DC_Buck_Ideal.pdf"
+            class="publication-link">Conversor DC-DC Buck — Modo Contínuo</a>
+        </div>
+      </div>
+
+      <!-- CATEGORIA: DIGITAL / AUTOMAÇÃO -->
+      <div class="publication-accordion-item">
+        <button class="publication-accordion-header">
+          Eletrônica Digital, Automação & Informática
+          <span class="category-count">16</span>
+        </button>
+        <div class="publication-accordion-content">
+          <a href="https://leandroteodororj.github.io/homepage/doc/Reutilizacao_Fonte_ATX.pdf"
+            class="publication-link">Reutilização de Fontes ATX</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Portas_Logicas.pdf" class="publication-link">Portas
+            Lógicas</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Portas_logicas_rele.pdf"
+            class="publication-link">Portas Lógicas com Relés</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Biestavel_Transistor.pdf"
+            class="publication-link">Biestável a Transistor</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Contador_Sincrono_Anel.pdf"
+            class="publication-link">Contador Síncrono em Anel — Ring Counter</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Introducao_Memorias.pdf"
+            class="publication-link">Introdução às Memórias</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Modos_de_Enderecamento.pdf"
+            class="publication-link">Modos de Endereçamento dos Microprocessadores</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/PIC_KIT_3_ZIF_Adapter.zip"
+            class="publication-link">Adaptador PIC (ZIF) para PICKIT 3</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Placa_Mae_16F877A.pdf" class="publication-link">Placa
+            Mãe PIC16F877A</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Interface_SPI.pdf" class="publication-link">Interface
+            SPI</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Windows_vs_Linux.pdf"
+            class="publication-link">Windows vs Linux</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/TCP-IP_Camada_de_Rede.pdf"
+            class="publication-link">TCP/IP — Camada de Rede</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Compreendendo_mais_sobre_o_RS485.pdf"
+            class="publication-link">RS-485 — Explicação Completa</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Protocolo_Modbus_Ciclos_de_Mensagens.pdf"
+            class="publication-link">Modbus — Query/Response</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Aplicacao_Supervisorio_com_Elipse_E3.pdf"
+            class="publication-link">Supervisório — Elipse E3</a>
+          <a href="https://leandroteodororj.github.io/homepage/doc/Diagramas_UML_Linkedin.pdf"
+            class="publication-link">UML — Artigo LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Leandro Teodoro — Engenharia & Machine Learning</div>
+    </div>
+  </footer>
+
+  <!-- Script principal do site -->
+  <script src="script.js"></script>
 </body>
+
 </html>
